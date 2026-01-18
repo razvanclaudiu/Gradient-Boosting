@@ -1,8 +1,8 @@
 ﻿
-# Gradient Boosting
+# Implementation of Gradient Boosting
 
 ## Introduction
-This report describes the implementation and evaluation of a Gradient Boosting Regressor developed from scratch. The main focus of the work is on the implementation of different loss functions and the computation of their corresponding negative gradients. These negative gradients are used during training to update the model at each boosting iteration.
+This README describes the implementation and evaluation of a Gradient Boosting Regressor developed from scratch. The main focus of the work is on the implementation of different loss functions and the computation of their corresponding negative gradients. These negative gradients are used during training to update the model at each boosting iteration.
 
 The implemented model supports three loss functions: squared error loss (L2), absolute error loss (L1), and Huber loss. For each loss function, the negative gradient is derived and implemented explicitly, and decision trees are trained to fit these values. The experiments performed analyze how the choice of loss function and several model parameters affect training and test performance.
 

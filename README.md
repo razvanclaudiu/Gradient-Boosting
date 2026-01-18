@@ -1,5 +1,5 @@
 ﻿
-# MALIS Project 3 Report: Gradient Boosting
+# Gradient Boosting
 
 ## Introduction
 This report describes the implementation and evaluation of a Gradient Boosting Regressor developed from scratch. The main focus of the work is on the implementation of different loss functions and the computation of their corresponding negative gradients. These negative gradients are used during training to update the model at each boosting iteration.
